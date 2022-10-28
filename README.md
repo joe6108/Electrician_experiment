@@ -4,10 +4,14 @@
 - Hugging
 - LLM 
 - conda
+  - 進入VSCODE or Anaconda Powershell Prompt (miniconda3)
+  - 如果是VSCODE，則需按右下角的環境去進行切換
+  - 接著往下執行
 ```
 1.創造一個環境 -->  conda create -n ENV_NAME(環境名稱) -y python=3.8  
 2. 切換環境  -->  conda activate ENV_NAME(環境名稱) 
 3. 下載需要的套件  -->  pip install {transformers torch gradio}
+4. pip list 查看下載套件
 ```
 '''
 ###　使用Usage
