@@ -14,7 +14,12 @@
 4. pip list 查看下載套件
 ```
 '''
-###　使用Usage
+### 快速開始
+https://gradio.app/quickstart/
+https://gradio.app/docs/#interface
+### powershell無法使用時
+https://israynotarray.com/other/20200510/1067127387/
+### 使用Usage
 ```
 from transformers import BertForSequenceClassification
 from transformers import BertTokenizer
