@@ -1,5 +1,5 @@
 import random
-
+import os
 if __name__ == "__main__":
     x = True
     while x == True :
@@ -8,7 +8,7 @@ if __name__ == "__main__":
         print("Your input is", user_input)
         #正確答案(隨機取得)
         dictionary = None
-        with open('word.txt') as f:
+        with open("C:\\Users\\s8874\\Desktop\\Electrician_experiment\\2022_10_14\\word.txt","r") as f:
             dictionary = f.read().splitlines()
         answer = random.sample(dictionary, 1)[0]
         print(answer)

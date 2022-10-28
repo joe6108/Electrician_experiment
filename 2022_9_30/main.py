@@ -1,9 +1,9 @@
 if __name__ == "__main__":
-    f = open("day1.txt", "r")
-    data = f.read()
-    print(type(data))
-    data = f.read().splitlines()
-    print(type(data))
+    with open("C:\\Users\\s8874\\Desktop\\Electrician_experiment\\2022_9_30\\day1.txt","r") as f:
+        data = f.read()
+        print(type(data))
+        data = f.read().splitlines()
+        print(type(data))
     data_length = len(data)
     count = 0
     #for i in range(0, 10, 1)
