@@ -12,6 +12,7 @@
 2. 切換環境  -->  conda activate ENV_NAME(環境名稱) 
 3. 下載需要的套件  -->  pip install {transformers torch gradio}
 4. pip list 查看下載套件
+5. 刪除虛擬環境 --> conda env remove --name myenv
 ```
 '''
 ### 快速開始
