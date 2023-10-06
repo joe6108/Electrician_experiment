@@ -13,6 +13,10 @@
   1. C:\User\Continuum\Minionda3
   2. C:\User\Continuum\Minionda3\Scripts
   3. C:\User\Continuum\Minionda3\Library\bin
+##
+
+當遇到需要你使用`conda init <shell>`時，需要同時設定vscode裡面的默認設定，按終端機右上角(目前shell)旁邊的向下箭頭，然後按split terminal，然後選擇你能夠初始化的shell。
+之後在vscode使用不想一直換的話，就要設定默認環境，也就是按住shift+ctrl+p，找到`Terminal: Select Default Profile`，然後設定默認環境，就能夠使用切換環境(conda activate)了。
 
 ```
 1.創造一個環境 -->  conda create -n ENV_NAME(環境名稱) -y python=3.8  
