@@ -8,7 +8,7 @@
   - 如果是VSCODE，則需按右下角的環境去進行切換
   - 接著往下執行
 
-## 設定環境變數
+## 設定環境變數(依照電腦下載路徑)
 
   1. C:\User\Continuum\Minionda3
   2. C:\User\Continuum\Minionda3\Scripts
